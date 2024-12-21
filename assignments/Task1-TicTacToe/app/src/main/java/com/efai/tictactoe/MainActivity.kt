@@ -5,6 +5,7 @@ import android.widget.Button
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 
+
 class MainActivity : AppCompatActivity() {
     private val board = Array(9) { "e" }
     private var currentTurn = "x" // Define currentTurn to fix the error
